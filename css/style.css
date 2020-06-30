@@ -85,3 +85,33 @@ section{
 footer p{
     text-align: center;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: salmon;
+    border-radius: 5px;
+ }
+li {
+    float: left;
+    border-right: 1px solid grey;
+}
+li:last-child {
+    border-right: none;
+  }
+  li a:hover {
+    background-color:tomato;
+  }
+  
+li a {
+    display: block;
+    padding:8px;
+    text-decoration: none;
+    color: white;
+}
+.container{
+   position: fixed;            /*Here i have learn how to fixed a element in CSS*/
+   margin-left: 30%;
+   padding-top: 2px;
+}
